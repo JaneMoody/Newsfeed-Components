@@ -4,7 +4,7 @@ function buttonCreator(buttonText) {
   const button = document.createElement("button");
   button.textContent = buttonText;
   button.classList.add("button");
-  button.addEventListener("click", (e) => {
+  button.addEventListener("click", function () {
     console.log("clicked!");
   });
   return button;
