@@ -163,7 +163,7 @@ function articleMaker(object) {
   allArticles.appendChild(artSpan);
 
   allArticles.classList.add("article");
-  allArticles.classList.add("artDate");
+  allArticles.classList.add("artTitle");
   allArticles.classList.add("artDate");
   allArticles.classList.add("span");
 
